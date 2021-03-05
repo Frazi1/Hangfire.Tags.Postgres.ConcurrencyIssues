@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.Tags.Postgres.ConcurrencyIssues", "Hangfire.Tags.Postgres.ConcurrencyIssues\Hangfire.Tags.Postgres.ConcurrencyIssues.csproj", "{56CC071C-6F3E-4AAB-9DF0-970CE1DE444B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56CC071C-6F3E-4AAB-9DF0-970CE1DE444B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CC071C-6F3E-4AAB-9DF0-970CE1DE444B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CC071C-6F3E-4AAB-9DF0-970CE1DE444B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CC071C-6F3E-4AAB-9DF0-970CE1DE444B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
