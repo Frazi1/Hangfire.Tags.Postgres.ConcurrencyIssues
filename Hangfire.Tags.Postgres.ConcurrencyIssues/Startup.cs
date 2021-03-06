@@ -50,6 +50,10 @@ namespace Hangfire.Tags.Postgre.ConcurrencyIssues
             RecurringJob.AddOrUpdate<SimpleJob>("generator-1",job => job.RunGeneratorJob(JobType.Type1), Cron.Minutely);
             RecurringJob.AddOrUpdate<SimpleJob>("generator-2",job => job.RunGeneratorJob(JobType.Type2), Cron.Minutely);
             RecurringJob.AddOrUpdate<SimpleJob>("generator-3",job => job.RunGeneratorJob(JobType.Type2), Cron.Minutely);
+            
+            RecurringJob.Trigger("generator-1");
+            RecurringJob.Trigger("generator-2");
+            RecurringJob.Trigger("generator-3");
         }
     }
 }
